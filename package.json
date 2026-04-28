@@ -1,0 +1,24 @@
+{
+  "name": "projeto-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keven-Freitas/projeto-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Keven-Freitas/projeto-devops/issues"
+  },
+  "homepage": "https://github.com/Keven-Freitas/projeto-devops#readme",
+  "dependencies": {
+    "jest": "^30.3.0"
+  }
+}
