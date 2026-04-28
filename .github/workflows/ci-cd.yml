@@ -25,3 +25,9 @@ jobs:
     steps:
     - name: Deploy
       run: echo "Deploy OK"
+
+    - name: Enviar alerta para Discord
+      run: |
+        curl -H "Content-Type: application/json" \
+        -d '{"content": "🚀 Pipeline executado com sucesso!"}' \
+        ${{ secrets.DISCORD_WEBHOOK }}
