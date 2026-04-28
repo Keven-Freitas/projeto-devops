@@ -15,8 +15,11 @@ jobs:
       - name: Build
         run: echo "Build OK"
 
-      - name: Test
-        run: echo "Testes OK"
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
 
   deploy:
     runs-on: ubuntu-latest
